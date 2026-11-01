@@ -380,11 +380,8 @@ def get_mr_for_po(material_request: str):
 				"qty": remaining,
 				"uom": it.uom,
 				"rate": flt(it.rate),
-<<<<<<< Updated upstream
 				"cost_code": _po_cost_code_obj(it),
-=======
 				"material_request_item": it.name,
->>>>>>> Stashed changes
 			}
 		)
 	return {
